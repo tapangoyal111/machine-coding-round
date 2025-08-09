@@ -1,0 +1,122 @@
+
+Below is a focused, realistic set of requirements you can use to implement a Parking Lot System in a
+machine coding round (usually 90–120 mins). It balances OOP design with practical coding.
+
+---
+
+ ✅ Machine Coding Round Requirements: Parking Lot System
+
+ 🔹 Problem Statement
+
+Design and implement a parking lot system that supports vehicle entry, exit, and basic parking spot management.
+
+---
+
+ 🎯 Scope
+
+ 1. Parking Lot Configuration
+
+ Parking lot has:
+
+   Multiple floors (e.g., Floor 0, Floor 1, etc.)
+   Each floor has N spots of each type:
+
+     Small (S)
+     Medium (M)
+     Large (L)
+
+ 2. Vehicle Types
+
+ `Motorcycle`
+ `Car`
+ `Truck`
+
+ 3. Spot Assignment Rules
+
+ Motorcycle → Small > Medium > Large
+ Car → Medium > Large
+ Truck → Large only
+
+ 4. APIs / Operations to Implement
+
+You must implement a simple command-based input system or function calls:
+
+ a. `park(vehicleType, vehicleNumber)` → returns ticket ID or “Parking Full”
+
+ Assigns nearest available suitable spot.
+ Creates and returns a parking ticket.
+
+ b. `unpark(ticketId)` → returns total cost
+
+ Frees the parking spot.
+ Calculates cost based on duration.
+ Removes ticket.
+
+ c. `display()` → prints available/occupied spots per floor
+
+---
+
+ ⏱️ Time-Based Pricing (Hardcoded)
+
+ ₹10 for first hour
+ ₹10 per additional hour (round up partial hours)
+
+---
+
+ 🧾 Ticket Details
+
+Each ticket should have:
+
+ Ticket ID
+ Vehicle number
+ Vehicle type
+ Floor and Spot ID
+ Entry time
+
+---
+
+ 🔐 Constraints
+
+ Max 5 floors, each with 10 spots per type
+ No need to persist data after the program ends
+ Multi-threading not required
+ No database; use in-memory structures (e.g., `Map`, `List`)
+
+---
+
+ 📦 Input/Output Style (Optional)
+
+```plaintext
+Input:
+park CAR KA-01-HH-1234
+park TRUCK KA-01-HH-9999
+unpark TICKET_1
+display
+
+Output:
+Parked at Floor 0 Spot M-2 (Ticket ID: TICKET_1)
+Parking Full
+Unparked Vehicle KA-01-HH-1234. Charge: ₹30
+Available Spots:
+Floor 0 - S: 4, M: 3, L: 1
+```
+
+---
+
+ 🏁 Evaluation Criteria
+
+ Code correctness
+ Clean OOP design (classes like `Vehicle`, `ParkingLot`, `ParkingSpot`, etc.)
+ Readability & modularity
+ Command parsing (if CLI used)
+ Use of appropriate data structures (Maps, Queues, etc.)
+
+---
+
+Let me know if you'd like:
+
+ Class Diagram / Design skeleton
+ Starter code structure
+ Complete working solution
+
+You can also ask for a multi-threaded, REST API-based, or Web UI-based version if you're targeting advanced interviews.

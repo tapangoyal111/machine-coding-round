@@ -1,0 +1,35 @@
+Entities:
+Parking-lot
+Parking Spot -> Type-> enum ,
+Floor -> N parking Spot of Each types
+
+Vehicle Type-> Enum `Motorcycle`
+                    `Car`
+                    `Truck`
+
+MotorCylcle -> Small to Large
+Car -> Medium to Large
+Truck -> Large
+
+
+
+
+
+
+---------------------
+
+Entities
+Parking Grid -> Floors -> Parking Spot
+Vehicle  ->
+Vehicle Type
+Ticket -> full detail of Parking.
+
+
+park(VehicleType, Vehicle Number)
+
+Services :
+Parking Service -> Park and Unpark
+Ticketing Service -> Responsible for ticket generation
+Parking Locator -> Locate the best Parking for Car , Motor , Truck -> Strategy Pattern/Chain Of Responsibility
+Invoicing Service -> Responsible for Calculate Fare Price
+

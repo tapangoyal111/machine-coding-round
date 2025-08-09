@@ -1,0 +1,15 @@
+Main Class -> Will handle the creation of Board , Players , Start and process Game.
+
+DTO/Entity ->
+TicTacToeBoard-> int dimension , String[][] board
+Players -> String name , String Symbol.
+Move -> int x, int y;
+GameStatus -> boolean isOver , String winner
+
+Services ->
+GamingService   -> responsible for starting the game (which includes , player initialization , board initialization )
+                -> responsible for move (which player is moving which move).
+
+ValidationService -> responsible for check legal moves ,
+                  -> check GameStatus
+

@@ -1,0 +1,1 @@
+Tic Tac Toe is the game needs to played between 2 players. Each players associated with a symbol either X or O. If any of the player is gets either the row or the column or any of the diagonal filled with all the matched symbol declared as winner. If no matching column/row/diagonal was found and also no empty cell for the move , then it will be called draw.
