@@ -6,11 +6,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class LargeParkingLocator extends ParkingLocator {
-
-    public LargeParkingLocator(){
-        super();
-        this.nextlocator = null;
-    }
     @Override
     public ParkingSpot findAavilableSpot(Vehicle vehicle){
         ParkingGrid grid = ParkingGridService.globalParkingGrid;

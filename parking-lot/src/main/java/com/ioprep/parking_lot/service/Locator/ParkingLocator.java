@@ -5,15 +5,15 @@ import com.ioprep.parking_lot.dto.Vehicle;
 
 public abstract class ParkingLocator {
 
-    ParkingLocator nextlocator;
+    ParkingLocator nextLocator;
 
     public ParkingSpot locateParking(Vehicle vehicle){
         ParkingSpot parkingSpot = findAavilableSpot(vehicle);
         if(parkingSpot!=null){
             return parkingSpot;
         }
-        else if (nextlocator!=null){
-            return nextlocator.locateParking(vehicle);
+        else if (nextLocator!=null){
+            return nextLocator.locateParking(vehicle);
         }
         else{
             return  null;

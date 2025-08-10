@@ -36,26 +36,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="30ls1fC7kxXbXSgdKSywLmmtfFn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false",
-    "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "E:/codes/Interview Prep/Machine Coding Round/parking-lot/src/main/java/com/ioprep/parking_lot/service/Parking",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/codes/Interview Prep/Machine Coding Round/parking-lot/src/main/java/com/ioprep/parking_lot/service/Parking&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ioprep.parking_lot.service.TicketEngine" />
@@ -86,27 +90,38 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Factory/VehicleFactory.java</url>
-          <line>12</line>
+          <line>25</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Factory/VehicleFactory.java</url>
-          <line>13</line>
+          <line>26</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Factory/VehicleFactory.java</url>
-          <line>14</line>
+          <line>27</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Factory/VehicleFactory.java</url>
-          <line>11</line>
+          <line>24</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -115,54 +130,29 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Parking/CarParkingStrategy.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Locator/MediumParkingLocator.java</url>
-          <line>17</line>
+          <line>20</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Locator/MediumParkingLocator.java</url>
-          <line>21</line>
+          <line>24</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Locator/MediumParkingLocator.java</url>
-          <line>22</line>
+          <line>25</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Locator/MediumParkingLocator.java</url>
-          <line>26</line>
+          <line>29</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/ParkingManager.java</url>
           <line>20</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Parking/CarParkingStrategy.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Parking/CarParkingStrategy.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Parking/CarParkingStrategy.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../parking-lot/src/main/java/com/ioprep/parking_lot/service/Parking/CarParkingStrategy.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
