@@ -1,16 +1,19 @@
 package com.ioprep.parking_lot.service.Locator;
 
 import com.ioprep.parking_lot.dto.*;
-import com.ioprep.parking_lot.service.Factory.ParkingLocatorFactory;
 import com.ioprep.parking_lot.service.ParkingGridService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 @Service
 public class MediumParkingLocator extends ParkingLocator {
 
-    public MediumParkingLocator(){
+
+    @Autowired
+    public MediumParkingLocator(@Qualifier("largeParkingLocator") ParkingLocator nextLocator){
         super();
-        this.nextlocator = ParkingLocatorFactory.getLargeParkingLocator();;
+        this.nextLocator = nextLocator;
     }
     @Override
     public ParkingSpot findAavilableSpot(Vehicle vehicle){

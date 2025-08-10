@@ -3,11 +3,12 @@ package com.ioprep.parking_lot.service.TicketEngine;
 import com.ioprep.parking_lot.dto.Ticket;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
 
-@Repository
+@Service
 public class TicketRepo {
 
     public static Map<String, Ticket> ticketMap;
