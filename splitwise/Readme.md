@@ -73,32 +73,39 @@ The solution should be **functional, compilable, and runnable** within **90–12
 ## 📖 Sample Input / Output
 
 ### Input
-- 1
+- ADD_USER
 - Tapan tapan.goyal@db.com
-- 1
+- ADD_USER
 - Naman naman.g
-- 1
+- ADD_USER
 - Ramesh ram.g
-- 1
+- ADD_USER
 - Suresh suresh.g
-- 2
+- ADD_EXPENSE
 - 1001 99 Sutta 3 EQUAL
 - 1001 1002 1003
-- 3
-- 2
+- SHOW_DEBT
+- 0
+- ADD_EXPENSE
 - 1002 200 Sutta 3 PERCENT
 - 1001 50
 - 1002 25
 - 1003 25
-- 2
+- SHOW_DEBT
+- 0
+- ADD_EXPENSE
 - 1003 500 Sutta 3 EXACT
 - 1001 200
 - 1002 200
 - 1003 100
-- 2
+- SHOW_DEBT
+- 0
+- ADD_EXPENSE
 - 1002 150 Sutta 2 EXACT
 - 1003 150
 - 1002 0
+- SHOW_DEBT
+- 0
 
 
 ### Output
